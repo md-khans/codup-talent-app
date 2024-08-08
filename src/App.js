@@ -1,27 +1,43 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import Dashboard from "./components/dashboard/Dashboard";
+import Createjob from "./components/createjob/Createjob";
+import MyJob from "./components/myJob/MyJob";
+import Details from "./details/Details";
+import Login from "./components/login-page/Login";
+import Navbar from "./components/navbar/Navbar"
 
-import Navbar from './components/navbar/Navbar';
-import Dashboard from './components/dashboard/Dashboard'
-import Createjob from './components/createjob/Createjob';
-import TechStack from './components/TechStack';
-import MyJob from './components/myJob/MyJob';
 
 
-function App() {
+const App = () => {
+  const  location = useLocation();
+  const shouldShowNavbar = ['/dashboard', '/myjob', '/createjob', '/details'].includes(location.pathname);
+
   return (
-    <>
-    <Router>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<Dashboard />} />
-      <Route path='/myjob' element={<MyJob/>} />
-      <Route path='/createjob' element={<Createjob/>} />
-    </Routes>
-    </Router>
-    </>
-  );
-}
+    <div>
+    
+    {shouldShowNavbar && <Navbar />}
 
-export default App;
+        <Routes>
+          <Route path='/' element={<Login />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/myjob' element={<MyJob />} />
+          <Route path='/createjob' element={<Createjob />} />
+          <Route path='/details' element={<Details />} />
+        </Routes>
+  
+
+   
+    </div>
+  );
+};
+
+
+const WrappedApp = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default WrappedApp;

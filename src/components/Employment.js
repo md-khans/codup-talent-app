@@ -5,7 +5,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import ListItemText from "@mui/material/ListItemText";
 import Select from "@mui/material/Select";
-import Checkbox from "@mui/material/Checkbox";
+
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -32,7 +32,7 @@ const EmploymentType = [
   "11- Seasonal",
 ];
 
-function Employment() {
+function Employment({ onChange }) {
   const [employment, setEmployment] = React.useState([]);
 
   const handleChange = (event) => {
@@ -40,6 +40,7 @@ function Employment() {
       target: { value },
     } = event;
     setEmployment(typeof value === "string" ? value.split(",") : value);
+    onChange(typeof value === "string" ? value.split(",") : value);
   };
 
   return (

@@ -30,7 +30,7 @@ const ExperienceLevel = [
   "9 - Senior Executive",
 ];
 
-function Experience() {
+function Experience({onChange }) {
   const [experience, setExperience] = React.useState([]);
 
   const handleChange = (event) => {
@@ -38,6 +38,7 @@ function Experience() {
       target: { value },
     } = event;
     setExperience(typeof value === "string" ? value.split(",") : value);
+    onChange(typeof value === "string" ? value.split(",") : value);
   };
 
   return (
@@ -56,10 +57,10 @@ function Experience() {
           renderValue={(selected) => selected.join(", ")}
           MenuProps={MenuProps}
         >
-          {ExperienceLevel.map((Experience) => (
-            <MenuItem key={Experience} value={Experience}>
-              {/* <Checkbox checked={experience.indexOf(Experience) > -1} /> */}
-              <ListItemText primary={Experience} />
+          {ExperienceLevel.map((experience) => (
+            <MenuItem key={experience} value={experience}>
+              {/* <Checkbox checked={experience.indexOf(experience) > -1} /> */}
+              <ListItemText primary={experience} />
             </MenuItem>
           ))}
         </Select>

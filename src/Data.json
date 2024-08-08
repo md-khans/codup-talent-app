@@ -1,0 +1,676 @@
+[
+  {
+    "page": 1,
+    "perPage": 10,
+    "totalItems": 3878,
+    "totalPages": 388,
+    "data": [
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65b9dc0c06968.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131053508_O3H1FPBZJBTPXSK9",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 3340402979",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Awais",
+        "email": "awaisaslam431@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Aslam",
+        "fullName": "awais aslam"
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65b9e5732217d.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131061515_JZZYXRDONXCNBIZC",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 3448211972",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "sadia",
+        "email": "sadialiaquat48@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "liaquat",
+        "fullName": "sadia liaquat"
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65b9f228e439e.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131070928_IX6EJSZAPFJPWCYS",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 3160360064",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Muhammad",
+        "email": "shoaibkhanmahars490@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Shoaib",
+        "fullName": "muhammad shoaib"
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65b9f4401fe31.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131071824_VAZA4K8IQYOLCGUB",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 3029634321",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Khizer",
+        "email": "khizerabbasdev@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Abbas",
+        "fullName": "khizer abbas"
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65b9f7f8d6fc8.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131073416_2DFJ6JUL8EVUD1LH",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 03168832450",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Muhammad Usama",
+        "email": "usamasagharr@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "saghar",
+        "fullName": "muhammad usama saghar"
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65b9f877ee086.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131073623_WEF08Q5JMQ6TQZOG",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 3109230850",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Kashif",
+        "email": "kashifaliabaj@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Ali",
+        "fullName": "kashif ali"
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65ba0283e9970.docx",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131081915_FBPBJ7JTHPDYTMZC",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 03333778007",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Asad",
+        "email": "asad.tirmizi92@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Tirmizi",
+        "fullName": "asad tirmizi",
+        "parseData": {
+          "data": {
+            "profile": {
+              "basics": {
+                "first_name": "ASAD",
+                "last_name": "TIRMIZI",
+                "gender": "male",
+                "emails": ["asad.tirmizi92@gmail.com"],
+                "urls": [],
+                "phone_numbers": ["0333-3778007"],
+                "date_of_birth": { "year": 1992, "month": 1, "day": 28 },
+                "address": "",
+                "total_experience_in_years": 10,
+                "profession": "Front End Developer",
+                "summary": "Innovative, proficient, and detail-oriented developer and programmer leading and supporting various software development life cycle (SDLC) initiatives. Experienced innovator with proven track record providing tailored software solutions and ability to drive process improvement efforts. Efficient and organized developer to work independently or as part of a team.",
+                "skills": [
+                  "HTML",
+                  "DHTML",
+                  "Adobe Photoshop",
+                  "JavaScript",
+                  "Wordpress",
+                  "WooCommerce",
+                  "Bootstrap",
+                  "PHP",
+                  "CSS",
+                  "Jquery",
+                  "Jquery Mobile",
+                  "IBM Notes",
+                  "Lotus Script",
+                  "SVG using JS",
+                  "Communication Skills",
+                  "Web Deployment",
+                  "Organizing Skills",
+                  "Microsoft Office",
+                  "Analytical Skills",
+                  "Problem Solving",
+                  "Crystal Reports"
+                ],
+                "has_driving_license": false
+              },
+              "languages": [
+                { "name": "English", "iso_code": "en", "fluency": 5 },
+                { "name": "Urdu", "iso_code": "ur", "fluency": 5 }
+              ],
+              "educations": [
+                {
+                  "start_year": 2011,
+                  "is_current": false,
+                  "end_year": 2012,
+                  "issuing_organization": "Aptech Computer Education",
+                  "description": "D.A.E in Web Development from Aptech Computer Education"
+                },
+                {
+                  "start_year": 2016,
+                  "is_current": false,
+                  "end_year": 2017,
+                  "issuing_organization": "Dadabhoy Institute of Higher Education",
+                  "description": "B.Com from Dadabhoy Institute of Higher Education"
+                },
+                {
+                  "start_year": 2011,
+                  "is_current": false,
+                  "end_year": 2012,
+                  "issuing_organization": "Board of Intermediate Education Karachi",
+                  "description": "Intermediate (I.Com) from Board of Intermediate Education Karachi"
+                },
+                {
+                  "start_year": 2007,
+                  "is_current": false,
+                  "end_year": 2008,
+                  "issuing_organization": "Seven Sea Academy Jinnah Avenue Malir",
+                  "description": "Matriculation (S.SC.) from Seven Sea Academy Jinnah Avenue Malir, Karachi"
+                }
+              ],
+              "trainings_and_certifications": [],
+              "professional_experiences": [
+                {
+                  "start_date": { "year": 2022, "month": 1 },
+                  "is_current": true,
+                  "end_date": { "year": 2024, "month": 4 },
+                  "duration_in_months": 28,
+                  "company": "Softech Worldwide",
+                  "location": "",
+                  "title": "Front End Developer",
+                  "description": "Designing engaging and responsive landing pages using liquid language/shopify's templating language\nLiaising with back-end developers to ensure web and app logic is properly integrated e.g 'HubSpot'\nWorking with marketing and research teams to incorporate brand elements and relevant market research findings into website i.e 'FreshDesk'\nTest, collect, and analyse data, identify SEO trends, and gain insights about target customers likes and dislikes to maximise ROI from an SEO campaign\nIntegrating client CMS programs and data feeds into websites\nOptimizing sites for maximum speed and scalability"
+                },
+                {
+                  "start_date": { "year": 2021, "month": 2 },
+                  "is_current": false,
+                  "end_date": { "year": 2021, "month": 12 },
+                  "duration_in_months": 10,
+                  "company": "BariTech Solution",
+                  "location": "",
+                  "title": "Front End Developer",
+                  "description": "BHR Portal (HR Attendance system with finance) (HTML, CSS, JS, Bootstrap, PHP)\nMultiple clients projects (HTML AND WORDPRESS BASED)\nUsing Jira for project management\nUse of SVN and GIT for version controlling system for projects\nConversion of PSD into HTML CSS (SCSS also) and WordPress using theme\nCustom Theme development of WordPress"
+                },
+                {
+                  "start_date": { "year": 2017, "month": 11 },
+                  "is_current": false,
+                  "end_date": { "year": 2021, "month": 1 },
+                  "duration_in_months": 38,
+                  "company": "Bahria Town Pvt. Ltd",
+                  "location": "",
+                  "title": "Software Developer",
+                  "description": "Online Billing Portal for Bahria Town Lahore (HTML, CSS, JS, Bootstrap, PHP)\nBahria Town Tower (Tariq Road) Billing System (IBM Notes, Lotus Script)\nFront End for Hospital Management System Bahria Town, Karachi (HTML, CSS, JS, Bootstrap)\nWorked on Merger, Amalgamation, Booking, Sales, Reporting and several other software for Bahria Town Karachi Sales and Marketing section\nFront End of Disaster Recovery System for Bahria Town Karachi (HTML, CSS, Bootstrap, JS)"
+                },
+                {
+                  "start_date": { "year": 2015, "month": 1 },
+                  "is_current": false,
+                  "end_date": { "year": 2017, "month": 11 },
+                  "duration_in_months": 34,
+                  "company": "Nybble Tech web design agency",
+                  "location": "",
+                  "title": "Web Developer",
+                  "description": "Complete Responsive front end for Village Health Website (http://www.villagehealth.com.au) (Wordpress, HTML, CSS, Bootstrap)\nComplete Responsive front end for Next Capital Website (http://www.nextcapital.com.pk/) (HTML, CSS, Bootstrap)\nComplete Responsive front end for Central Performance Website (https://www.centralperformance.com.au) (HTML, CSS, Bootstrap)\nComplete Responsive front end for Warby Hawkins & Partners Website (https://www.wkh.com.au) (HTML, CSS, Bootstrap)\nComplete Responsive front end for Highgate Hill Doctors Website (https://www.highgatehilldoctors.com.au) (HTML, CSS, Bootstrap)\nComplete Responsive front end for Total Medical Design Website (https://www.totalmedicaldesign.com.au) (HTML, CSS, Bootstrap)"
+                }
+              ],
+              "awards": [],
+              "references": []
+            },
+            "cv_text": "ASAD TIRMIZI Mobile numbers: 0333-3778007 Email: asad.tirmizi92@gmail.com\nC a r e e r O b j e c t i v e\nInnovative, proficient, and detail-oriented developer and programmer leading and supporting various software development life cycle (SDLC) initiatives. Experienced innovator with proven track record providing tailored software solutions and ability to drive process improvement efforts. Efficient and organized developer to work independently or as part of a team.\nE d u c a t i o n H i s t o r y\nD.A.E (Web Development from Aptech Computer Education. (2011-2012)\nB.Com from Dadabhoy Institute of Higher Education (2016-2017)\nIntermediate (I.Com) from Board of Intermediate Education Karachi. (2011-2012)\nMatriculation (S.SC.) from Seven Sea Academy Jinnah Avenue Malir, Karachi (2007-2008)\nE x p e r i e n c e\nSoftech Worldwide – Front End Developer (Jan 2022 to Present):\n-\nDesigning engaging and responsive landing pages using liquid language/ shopify's templating language\nLiaising with back-end developers to ensure web and app logic is properly integrated e.g \"HubSpot\".\nWorking with marketing and research teams to incorporate brand elements and relevant market research findings into website i.e \"FreshDesk\".\nTest, collect, and analyse data, identify SEO trends, and gain insights about target customers’ likes and dislikes to maximise ROI from an SEO campaign\nIntegrating client CMS programs and data feeds into websites\nOptimizing sites for maximum speed and scalability\nBariTech Solution – Front End Developer (Feb 2021 to Dec 2021): P r o j e c t s :\nBHR Portal (HR Attendance system with finance). (HTML, CSS, JS, Bootstrap, PHP)\nMultiple client’s projects (HTML AND WORDPRESS BASED). Using Jira for project management.\nUse of SVN and GIT for version controlling system for projects.\nConversion of PSD into HTML CSS (SCSS also) and WordPress using theme.\nCustom Theme development of WordPress.\nBahria Town Pvt. Ltd - Software Developer (November 2017 to Jan 2021):\nP r o j e c t s :\n. Online Billing Portal for Bahria Town Lahore. (HTML, CSS, JS, Bootstrap, PHP) Bahria Town Tower (Tariq Road) Billing System. (IBM Notes, Lotus Script)\n. Front End for Hospital Management System Bahria Town, Karachi. (HTML, CSS, JS, Bootstrap)\nWorked on Merger, Amalgamation, Booking, Sales, Reporting and several other software for Bahria Town Karachi Sales and Marketing section.\nFront End of Disaster Recovery System for Bahria Town Karachi. (HTML, CSS, Bootstrap, JS)\nNybble Tech web design agency- Web Developer (Jan 2015 to Nov 2017)\nP r o j e c t s :\nComplete Responsive front end for Village Health Website (http://www.villagehealth.com.au )(Wordpress, HTML, CSS, Bootstrap)\nComplete Responsive front end for Next Capital Website (http://www.nextcapital.com.pk/ )(HTML, CSS, Bootstrap) Complete Responsive front end for Central Performance Website (https://www.centralperformance.com.au) (HTML, CSS, Bootstrap)\nComplete Responsive front end for Warby Hawkins & Partners Website (https:// www.wkh.com.au )(HTML, CSS, Bootstrap)\nComplete Responsive front end for Highgate Hill Doctors Website (https://www.highgatehilldoctors.com.au )(HTML, CSS, Bootstrap) Complete Responsive front end for Total Medical Design Website (https://www.totalmedicaldesign.com.au )(HTML, CSS, Bootstrap)\nFreelance Work:\nComplete Website for a Construction Company on Wordpress. (https://www.surroundarchitects.com/)\nComplete Website for a Ecommerce on Wordpress. (https://www.shaheenaflowers.com/)\nComplete Website for a Ecommerce on Wordpress. (https://www.bariandsons.com /)\nComplete Website for a Ecommerce on Wordpress. (https://therealwalkabout.pk/)\nP r o f e s s i o n a l S k i l l s\nLanguage / Technology / Skills\nSkill Level\nHTML / HTML5\n★★★★★\nDHTML\n★★★★★\nAdobe Photoshop\n★★★½☆\nJavaScript\n★★★½☆\nWordpress, WooCommerce\n★★★★☆\nBootstrap\n★★★★½\nPHP\n★★½☆☆\nCSS / CSS3\n★★★★★\nJquery, Jquery Mobile\n★★★★★\nIBM Notes / Lotus Script\n★★★★½\nSVG using JS\n★★★★☆\nOther Skills / Technology\nStrengths\nLanguage /\nSkill Level\nTechnology\nWeb Deployment\n★★½☆☆\nMicrosoft Office\n★★★★☆\nAdobe Photoshop\n★★★☆☆\nCrystal Reports\n★☆☆☆☆\nName\nLevel\nCommunication Skills\n★★★½☆\nOrganizing Skills\n★★★½☆\nAnalytical Skills\n★★★★☆\nProblem Solving\n★★★★☆\nP e r s o n a l D e t a i l s\nFather’s name\n:\nSyed Asif Tirmizi\nGender\n:\nMale\nDate of Birth\n:\n28/01/1992\nMarital Status\n:\nSingle\nLanguages Known\n:\nEnglish, Urdu\nNationality\n:\nPakistani",
+            "cv_language": "en"
+          },
+          "error": { "code": null, "message": null }
+        }
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65ba045658c4e.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131082702_MCNVVO3NY9OWTQEH",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 03016988554",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Zulqarnain",
+        "email": "mzulqarnainakram@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Akram",
+        "fullName": "zulqarnain akram",
+        "parseData": {
+          "data": {
+            "profile": {
+              "basics": {
+                "first_name": "Muhammad",
+                "last_name": "Zulqarnain",
+                "gender": "male",
+                "emails": ["mzulqarnainakram@gmail.com"],
+                "urls": [
+                  "dailyscandinavian.com",
+                  "https://racinedesignstudio.com",
+                  "https://solarr.shop",
+                  "https://shoparke.com"
+                ],
+                "phone_numbers": ["+923016988554"],
+                "date_of_birth": { "year": null, "month": null, "day": null },
+                "address": "TF# 13, Block C 2, street 97, sector G 11/3, Islamabad",
+                "total_experience_in_years": 3,
+                "profession": "Developer & Designer",
+                "summary": "Motivated and experienced Advance Level WordPress Designer and Developer with a strong foundation in UI/UX design using HTML and CSS. Possess intermediate skills in PHP, JavaScript, and jQuery, enhancing the ability to create dynamic and visually appealing websites. Seeking an opportunity to leverage expertise in web development and design to contribute to a forward-thinking organization's success.",
+                "skills": [
+                  "UI/UX Designer",
+                  "HTML",
+                  "CSS",
+                  "Wordpress Designer",
+                  "Developer",
+                  "PHP",
+                  "JavaScript",
+                  "jQuery",
+                  "Local SEO",
+                  "Computer Skill",
+                  "Communication Skill"
+                ],
+                "has_driving_license": false
+              },
+              "languages": [],
+              "educations": [
+                {
+                  "start_year": 2016,
+                  "is_current": false,
+                  "end_year": 2018,
+                  "issuing_organization": "BWP board government college chishtain",
+                  "description": "BWP board government college chishtain"
+                },
+                {
+                  "start_year": 2020,
+                  "is_current": false,
+                  "end_year": 2024,
+                  "issuing_organization": "Virtual university Pakistan",
+                  "description": "Virtual university Pakistan"
+                }
+              ],
+              "trainings_and_certifications": [],
+              "professional_experiences": [
+                {
+                  "start_date": { "year": 2024, "month": 4 },
+                  "is_current": true,
+                  "end_date": { "year": 2024, "month": 4 },
+                  "duration_in_months": 1,
+                  "company": "Innovative Website Designer",
+                  "location": "",
+                  "title": "Wordpress Designer",
+                  "description": "Over two years of experience creating powerful designs in the fashion industry.\nCollaborated with designers and other team professionals to achieve high goals and deadlines."
+                }
+              ],
+              "awards": [],
+              "references": []
+            },
+            "cv_text": "CONTACT ME\n+923016988554\nmzulqarnainakram@gmail. com\nTF# 13, Block C 2, street 97, sector G 11/3, Islamabad\nEDUCATION\nIntermadiate BWP board government college chishtain 2016 - 2018\nBSCS on going 2024 Virtual university Pakistan 2020 - 2024\nSKILLS\n· UI/UX Designer HTML CSS. level intermediate\nWordpress Designer and Developer\nLevel fully skilled PHP JavaScript\njQuery\nLevel Basic\nLocal SEO\nComputer Skill\nCommunication Skill\n· Level Intermediate\nMuhammad Zulqarnain Developer & Designer\nAbout Me\nMotivated and experienced Advance Level WordPress Designer and Developer with a strong foundation in UI/UX design using HTML and CSS. I possess intermediate skills in PHP, JavaScript, and jQuery, which enhance my ability to create dynamic and visually appealing websites. Seeking an opportunity to leverage my expertise in web development and design to contribute to a forward-thinking organization's success.\nWORK EXPERIENCE\nWordpress Designer Innovative Website Designer with over two years of experience creating powerful designs in the fashion industry. Adept in collaborating with designers and other team professionals to achieve high goals and deadlines.\nMy journey in the world of web design and development has been marked by continuous growth and a passion for creating visually captivating and user-friendly WordPress websites. Over the past three years, I have leveraged my in-depth knowledge of WordPress to deliver outstanding results on numerous projects, consistently pushing the boundaries of creativity and functionality. Some key highlights of my career include:\nProject Diversity: Successfully completed and contributed to more than 50 WordPress projects, each unique in its design and functionality, showcasing adaptability and versatility in addressing varying client needs.\nCoding Expertise: Proficient in HTML, CSS, JavaScript, and PHP, I have been instrumental in not only designing but also coding websites from the ground up, ensuring seamless user experiences and high performance.\nMy projects dailyscandinavian.com https://racinedesignstudio.com https://solarr.shop shoparke.com\n",
+            "cv_language": "en"
+          },
+          "error": { "code": null, "message": null }
+        }
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65ba0c31e2c2d.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131090033_FOJXL6EVX4AFOJSE",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 03162934207",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Muhammad",
+        "email": "hammadsaifi9292630@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Hammad",
+        "fullName": "muhammad hammad",
+        "parseData": {
+          "data": {
+            "profile": {
+              "basics": {
+                "first_name": "MUHAMMAD",
+                "last_name": "HAMMAD",
+                "gender": "male",
+                "emails": ["hammadsaifi9292630@gmail.com"],
+                "urls": ["www.reallygreatsite.com"],
+                "phone_numbers": ["+92 3162934207"],
+                "date_of_birth": { "year": null, "month": null, "day": null },
+                "address": "A-97 Anware Ibrahim Malir Karachi",
+                "total_experience_in_years": 3,
+                "profession": "WORDPRESS DEVELOPER",
+                "summary": "To work with leading company and to use my analytical thinking to the best of my ability combined with perseverance, so as to contribute to organization's growth and goal, as well as to attain my professional goal",
+                "skills": ["WORDPRESS", "HTML", "CSS", "BOOTSTRAP", "PHP"],
+                "has_driving_license": false
+              },
+              "languages": [
+                { "name": "Urdu", "iso_code": "ur", "fluency": null },
+                { "name": "English", "iso_code": "en", "fluency": null }
+              ],
+              "educations": [
+                {
+                  "start_year": 2017,
+                  "is_current": false,
+                  "end_year": 2019,
+                  "issuing_organization": "Allama Iqbal Govt.Degree College No.2",
+                  "description": "Your Degree Name (MATRICULISM) SUN RISE CHILDREN ACADEMY(SRCA)"
+                },
+                {
+                  "start_year": 2019,
+                  "is_current": false,
+                  "end_year": 2021,
+                  "issuing_organization": "",
+                  "description": "Your Degree Name (BSSE) Appeared by U.I.T in Process"
+                }
+              ],
+              "trainings_and_certifications": [
+                {
+                  "year": null,
+                  "issuing_organization": "",
+                  "description": "CONNACT ( 06 MONTH EXPERIENCE ) AT WORDPRESS DEVELOPER."
+                },
+                {
+                  "year": null,
+                  "issuing_organization": "",
+                  "description": "THE TECH STYLES AT WORDPRESS DEVELOPER."
+                }
+              ],
+              "professional_experiences": [
+                {
+                  "start_date": { "year": 2022, "month": null },
+                  "is_current": false,
+                  "end_date": { "year": 2022, "month": null },
+                  "duration_in_months": 6,
+                  "company": "Company name",
+                  "location": "",
+                  "title": "Your Job Position here",
+                  "description": "DESK WORK SOL ( 6 MONTHS EXPERIENCE ) AT WORDPRESS DEVELOPER."
+                },
+                {
+                  "start_date": { "year": 2022, "month": null },
+                  "is_current": false,
+                  "end_date": { "year": 2023, "month": null },
+                  "duration_in_months": 12,
+                  "company": "Company name",
+                  "location": "",
+                  "title": "Your Job Position here",
+                  "description": "CONNACT ( 06 MONTH EXPERIENCE ) AT WORDPRESS DEVELOPER."
+                },
+                {
+                  "start_date": { "year": 2022, "month": null },
+                  "is_current": false,
+                  "end_date": { "year": 2023, "month": null },
+                  "duration_in_months": 12,
+                  "company": "Company name",
+                  "location": "",
+                  "title": "Your Job Position here",
+                  "description": "THE TECH STYLES AT WORDPRESS DEVELOPER."
+                }
+              ],
+              "awards": [],
+              "references": []
+            },
+            "cv_text": "MUHAMMAD HAMMAD WORDPRESS DEVELOPER\nCONTACT\n+92 3162934207\nhammadsaifi9292630@gmail.com\nwww.reallygreatsite.com\nC A-97 Anware Ibrahim Malir Karachi\nSKILLS\nWORDPRESS\nHTML\nCSS\nBOOTSTRAP PHP\nEDUCATION\nYour Degree Name (MATRICULISM) SUN RISE CHILDREN ACADEMY(SRCA) 2017-2019\nYour Degree Name (INTERMEDIATE) Allama Iqbal Govt.Degree College No.2 2019-2021\nYour Degree Name (BSSE) Appeared by U.I.T in Process\nLANGUAGES\nUrdu\nEnglish\nPROFILE\nTo work with leading company and to use my analytical thinking to the best of my ability combined with perseverance, so as to contribute to organization's growth and goal, as well as to attain my professional goal\nWORK EXPERIENCE\nYour Job Position here\nCompany name\n2022-2022\n· DESK WORK SOL ( 6 MONTHS EXPERIENCE ) AT WORDPRESS DEVELOPER.\nYour Job Position here\nCompany name 2022-2023\n· CONNACT ( 06 MONTH EXPERIENCE ) AT WORDPRESS DEVELOPER.\nYour Job Position here\nCompany name\n2022-2023\n· THE TECH STYLES AT WORDPRESS DEVELOPER.",
+            "cv_language": "en"
+          },
+          "error": { "code": null, "message": null }
+        }
+      },
+      {
+        "college": "",
+        "notes": "",
+        "references": "",
+        "resume_link": "https://s3.amazonaws.com/resumator/customer_20230727094820_GJK0XGRNBZHETTHT/resumes/resume_65ba0d019a228.pdf",
+        "feedback": [],
+        "evaluation": [],
+        "apply_date": "2024-01-31",
+        "id": "prospect_20240131090401_CUOPUD3RPU3B2UYU",
+        "eeo_gender": null,
+        "willing_to_relocate": "No answer",
+        "eeoc_disability_signature": null,
+        "recruiter_id": "",
+        "phone": "+92 03074427065",
+        "messages": [],
+        "has_felony": "No answer",
+        "education_level": "No answer",
+        "linkedin_url": "",
+        "eeo_disability": null,
+        "desired_salary": "",
+        "desired_start_date": "",
+        "categories": [],
+        "first_name": "Asad",
+        "email": "asadullah4537313@gmail.com",
+        "languages": "",
+        "jobs": [],
+        "last_name": "Ullah",
+        "fullName": "asad ullah",
+        "parseData": {
+          "data": {
+            "profile": {
+              "basics": {
+                "first_name": "Asadullah",
+                "last_name": "",
+                "gender": null,
+                "emails": ["asadullah4537313@gmail.com"],
+                "urls": [],
+                "phone_numbers": ["+923074427065", "+923074427065"],
+                "date_of_birth": { "year": null, "month": null, "day": null },
+                "address": "Jaranwala, Faislabad",
+                "total_experience_in_years": 2,
+                "profession": "Front End & WordPress Developer",
+                "summary": "Front-end enthusiast dedicated to seamless user experiences. WordPress developer with a knack for customizing themes, building and implementing features that elevate website functionality.",
+                "skills": [
+                  "Html5",
+                  "Css3",
+                  "Bootstrap5",
+                  "Tailwind",
+                  "Javascript",
+                  "Jquery",
+                  "Php",
+                  "ACF Fields",
+                  "Gutenberg Blocks With ACF",
+                  "Woocommerce",
+                  "Email Templates",
+                  "Responsive UI Designs",
+                  "WordPress Customization",
+                  "WP Page Builders like Elementor, divi etc",
+                  "PSD",
+                  "XD",
+                  "Figma / Sketch to Html & WP"
+                ],
+                "has_driving_license": false
+              },
+              "languages": [
+                { "name": "Urdu", "iso_code": "ur", "fluency": null },
+                { "name": "English", "iso_code": "en", "fluency": null },
+                { "name": "Punjabi", "iso_code": "pa", "fluency": null }
+              ],
+              "educations": [
+                {
+                  "start_year": 2022,
+                  "is_current": false,
+                  "end_year": 2023,
+                  "issuing_organization": "Virtual University of Pakistan",
+                  "description": "ADP in Computer Science"
+                },
+                {
+                  "start_year": 2019,
+                  "is_current": false,
+                  "end_year": 2020,
+                  "issuing_organization": "Govt College Jaranwala",
+                  "description": "I.com Field In Commerce"
+                },
+                {
+                  "start_year": 2017,
+                  "is_current": false,
+                  "end_year": 2018,
+                  "issuing_organization": "Govt Islamia High School Jaranwala",
+                  "description": "Matrice in Bio Science"
+                }
+              ],
+              "trainings_and_certifications": [],
+              "professional_experiences": [
+                {
+                  "start_date": { "year": 2022, "month": 8 },
+                  "is_current": true,
+                  "end_date": { "year": 2024, "month": 4 },
+                  "duration_in_months": 21,
+                  "company": "Gomal Theme, Faislabad",
+                  "location": "",
+                  "title": "Frond End & Wordpress Developer",
+                  "description": "Proficient in HTML, CSS, and JavaScript for creating engaging front-end experiences.\nSpecialized in WordPress development, with expertise in theme customization and development"
+                }
+              ],
+              "awards": [],
+              "references": []
+            },
+            "cv_text": "About Me\nFront-end enthusiast dedicated to seamless user experiences. WordPress developer with a knack for customizing themes, building and implementing features that elevate website functionality\nExpertise Skill\n· Html5, Css3, Bootstrap5, Tailwind · Javascript, Jquery, Php\n. WordPress Customization\n· ACF Fields, Gutenberg Blocks With ACF\n. WP Page Builders like Elementor, divi etc\n· PSD, XD, Figma / Sketch to Html & WP · Woocommerce, Email Templates . Responsive UI Designs\nContact Me\n+923074427065 +923074427065 asadullah4537313@gmail.com Jaranwala, Faislabad\nV\nC\nAsadullah\nFront End & WordPress Developer\nEducation\n2022-2023 ADP in Computer Science Virtual University of Pakistan\n2019-2020 I.com Field In Commerce Govt College Jaranwala\n2017-2018 Matrice in Bio Science Govt Islamia Heigh School Jaranwala\nWork Experience\nFrond End & Wordpress\nGomal Theme, Faislabad -\nAugust-2022 To November-2023\n. Proficient in HTML, CSS, and JavaScript for creating engaging front-end experiences.\n· Specialized in WordPress development, with expertise in theme customization and development\nLanguages\n· Urdu\n· English\n· Punjabi",
+            "cv_language": "en"
+          },
+          "error": { "code": null, "message": null }
+        }
+      }
+    ],
+    "nextPage": "/applicants?page=11&perPage=10&searchKeyword=&selectedVetted=undefined&techStacks=",
+    "prevPage": null
+  }
+
+]

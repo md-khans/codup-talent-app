@@ -1,0 +1,21 @@
+.myjob-container {
+    padding: 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .create-job-button {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .create-job-button .MuiButton-root {
+    margin-left: 0;
+    background-color: green;
+  }
+  
+  .myjob-container h1 {
+    color: #333;
+    text-align: center;
+  }
+  

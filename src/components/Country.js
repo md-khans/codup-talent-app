@@ -4,12 +4,13 @@ import makeAnimated from "react-select/animated";
 import countryList from "react-select-country-list";
 
 
-function Country() {
+function Country({ onChange }) {
     const [value, setValue] = useState([]);
     const options = countryList().getData();
   
     const handleChange = (selectedOptions) => {
       setValue(selectedOptions);
+      onChange(selectedOptions);
     };
 
   return (

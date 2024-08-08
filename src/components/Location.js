@@ -26,7 +26,7 @@ const LocationData = [
   "Other",
 ];
 
-function Location() {
+function Location({ onChange }) {
   const [location, setLocation] = React.useState([]);
 
   const handleChange = (event) => {
@@ -34,6 +34,7 @@ function Location() {
       target: { value },
     } = event;
     setLocation(typeof value === "string" ? value.split(",") : value);
+    onChange(typeof value === "string" ? value.split(",") : value);
   };
 
   return (

@@ -7,49 +7,65 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
-
-const columns = [
-  { id: "name", label: "NAME", minWidth: 170 },
-  { id: "code", label: "SKILLS", minWidth: 100 },
-  {
-    id: "population",
-    label: "YEAR OF EXPERIENCE",
-    minWidth: 170,
-    align: "right",
-    format: (value) => value.toLocaleString("en-US"),
-  },
-  {
-    id: "size",
-    label: "ACTION",
-    minWidth: 170,
-    align: "right",
-    format: (value) => value.toLocaleString("en-US"),
-  },
-];
-
-function createData(name, code, population, size) {
-  const density = population / size;
-  return { name, code, population, size };
-}
-
-const rows = [
-  createData("India", "IN", 1324171354, ),
-  createData("China", "CN", 1403500365, 9596961),
-  createData("Italy", "IT", 60483973, 301340),
-  createData("United States", "US", 327167434, 9833520),
-  createData("Canada", "CA", 37602103, 9984670),
-  createData("Australia", "AU", 25475400, 7692024),
-  createData("Germany", "DE", 83019200, 357578),
-  createData("Ireland", "IE", 4857000, 70273),
-  createData("Mexico", "MX", 126577691, 1972550),
-  createData("Japan", "JP", 126317000, 377973),
-];
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
+import { Button } from "@mui/material";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Data() {
-  const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  const [rows, setRows] = useState([]);
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [totalItems, setTotalItems] = useState(0);
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
-  const handleChangePage = (event, newPage) => {
+  const fetchData = async (page, rowsPerPage) => {
+    setLoading(true);
+    try {
+      const response = await fetch(
+        `https://backendcoduptalent.codupcloud2.com/applicants?page=${
+          page + 1
+        }&limit=${rowsPerPage}`
+      );
+
+      if (!response.ok) {
+        throw new Error("Network respone was not ok");
+      }
+      const result = await response.json();
+
+      if (result.data && Array.isArray(result.data)) {
+        const processedRows = result.data.map((item) => {
+          const profile = item.parseData?.data?.profile?.basics || {};
+          return {
+            id: item.id,
+            first_name: item.fullName,
+            skills: profile.skills ? profile.skills.join(", ") : "N/A",
+            experience: profile.total_experience_in_years || "N/A",
+          };
+        });
+        setRows(processedRows);
+        console.log("🚀 ~ fetchData ~ result.totalItems:",result.data[0].parseData);
+        setTotalItems(result.totalItems);
+        setError("");
+      }
+    } catch (error) {
+      setError("No Result Found: ");
+      console.log("Error fetchin data");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchData(page, rowsPerPage);
+  }, [page, rowsPerPage]);
+
+ 
+
+  const handleChangePage = (evenr, newPage) => {
     setPage(newPage);
   };
 
@@ -58,65 +74,67 @@ function Data() {
     setPage(0);
   };
 
+  const handleDetailsClick = () => {
+    navigate("/details");
+  };
+
   return (
     <>
-      <div>
-        <Paper sx={{ width: "100%", overflow: "hidden" }}>
-          <TableContainer sx={{ maxHeight: 440 }}>
-            <Table stickyHeader aria-label='sticky table'>
-              <TableHead>
-                <TableRow>
-                  {columns.map((column) => (
-                    <TableCell
-                      key={column.id}
-                      align={column.align}
-                      style={{ minWidth: column.minWidth }}
-                    >
-                      {column.label}
-                    </TableCell>
-                  ))}
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {rows
-                  .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                  .map((row) => {
-                    return (
-                      <TableRow
-                        hover
-                        role='checkbox'
-                        tabIndex={-1}
-                        key={row.code}
+      <h1>Records</h1>
+      
+      <Paper sx={{ width: "100%", overflow: "hidden" }}>
+        <TableContainer sx={{ maxHeight: 840 }}>
+          <Table stickyHeader aria-label='sticky table'>
+            <TableHead>
+              <TableRow>
+                <TableCell style={{ minWidth: 170 }}>NAME</TableCell>
+                <TableCell style={{ minWidth: 50 }}>SKILLS</TableCell>
+                <TableCell style={{ minWidth: 80 }}>
+                  YEARS OF EXPERIENCE
+                </TableCell>
+                <TableCell style={{ minWidth: 150 }}>ACTION</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {rows
+                .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+                .map((row) => (
+                  <TableRow hover role='checkbox' tabIndex={-1} key={row.id}>
+                    <TableCell>{row.first_name}</TableCell>
+                    <TableCell>{row.skills}</TableCell>
+                    <TableCell>{row.experience}</TableCell>
+                    <TableCell>
+                      <Button
+                        variant='contained'
+                        color='primary'
+                        onClick={handleDetailsClick}
                       >
-                        {columns.map((column) => {
-                          const value = row[column.id];
-                          return (
-                            <TableCell key={column.id} align={column.align}>
-                              {column.format && typeof value === "number"
-                                ? column.format(value)
-                                : value}
-                            </TableCell>
-                          );
-                        })}
-                      </TableRow>
-                    );
-                  })}
-              </TableBody>
-            </Table>
-          </TableContainer>
-          <TablePagination
-            rowsPerPageOptions={[10, 25, 100]}
-            component='div'
-            count={rows.length}
-            rowsPerPage={rowsPerPage}
-            page={page}
-            onPageChange={handleChangePage}
-            onRowsPerPageChange={handleChangeRowsPerPage}
-          />
-        </Paper>
-      </div>
+                        DETAILS
+                      </Button>
+                    </TableCell>
+                  </TableRow>
+                ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+        <Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={loading}
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
+        {error && <h3 style={{ color: 'black', textAlign: 'center' }}>{error}</h3>}
+        <TablePagination
+          rowsPerPageOptions={[10, 25, 100]}
+          component='div'
+          count={totalItems}
+          rowsPerPage={rowsPerPage}
+          page={page}
+          onPageChange={handleChangePage}
+          onRowsPerPageChange={handleChangeRowsPerPage}
+        />
+      </Paper>
     </>
   );
 }
-
 export default Data;
