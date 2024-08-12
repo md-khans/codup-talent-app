@@ -1,0 +1,28 @@
+.form-container {
+    height: 100vh;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container .form-field {
+    margin-bottom: 20px;
+    width: 27cap;
+  }
+  
+  .form-container .submit-button {
+    padding: 10px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container .submit-button:hover {
+    background-color: #1565c0;
+  }
+  

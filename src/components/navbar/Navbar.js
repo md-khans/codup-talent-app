@@ -82,8 +82,8 @@ function NavBar() {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose}>Profile</MenuItem>
-              <MenuItem component={Link} to='/'>Logout</MenuItem>
+              <MenuItem component={Link} to="/profile">Profile</MenuItem>
+              <MenuItem component={Link} to="/">Logout</MenuItem>
             </Menu>
           </div>
         </Toolbar>

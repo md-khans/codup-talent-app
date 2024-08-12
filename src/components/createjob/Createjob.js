@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../createjob/Createjob.css";
 import UndoIcon from "@mui/icons-material/Undo";
 import {
   CssBaseline,
@@ -58,7 +59,7 @@ function Createjob() {
   return (
     <>
       <CssBaseline />
-      <Container maxWidth='sm'>
+      <Container className='form-container' maxWidth='sm'>
         {error && (
           <Alert severity='error' sx={{ mt: 2 }}>
             Please fill in all the fields.
@@ -81,9 +82,9 @@ function Createjob() {
               label='Position Title'
               value={formData.positionTitle}
               onChange={handleInputChange}
-              fullWidth
               margin='normal'
               required
+              className="form-field"
             />
             <TechStack
               onChange={(value) =>
@@ -108,7 +109,7 @@ function Createjob() {
             <Country
               onChange={(value) => setFormData({ ...formData, country: value })}
             />
-            <Button variant='outlined' type='submit'>
+            <Button className="submit-button" variant='outlined' type='submit'>
               Create
             </Button>
           </form>

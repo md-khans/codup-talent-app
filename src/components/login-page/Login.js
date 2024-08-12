@@ -3,8 +3,6 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 import Link1 from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
@@ -12,6 +10,8 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Alert from "@mui/material/Alert";
+import Stack from "@mui/material/Stack";
 import { Link } from "react-router-dom";
 
 function Copyright(props) {
@@ -35,27 +35,23 @@ function Copyright(props) {
 const defaultTheme = createTheme();
 
 export default function SignIn() {
-  const [email, setEmail] = useState("");
-  const [password, setpasword] = useState("");
+  const [showAlert, setShowAlert] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    alert("Please Click As a Guest");
-    // console.log({
-    //   email: data.get("email"),
-    //   password: data.get("password"),
-    // });
-    // if (email && password) {
-    //   alert("this alert");
-    // }
-    // console.log({ email: email, password: password });
+    setShowAlert(true);
   };
+
+  setTimeout(() => {
+    setShowAlert(false);
+  }, 3000);
 
   return (
     <ThemeProvider theme={defaultTheme}>
       <Container component='main' maxWidth='xs'>
         <CssBaseline />
+
         <Box
           sx={{
             marginTop: 8,
@@ -64,6 +60,11 @@ export default function SignIn() {
             alignItems: "center",
           }}
         >
+          {showAlert && (
+            <Stack sx={{ width: "100%" }}>
+              <Alert severity='info'>Please Click As a Guest</Alert>
+            </Stack>
+          )}
           <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
             <LockOutlinedIcon />
           </Avatar>
@@ -75,6 +76,7 @@ export default function SignIn() {
               margin='normal'
               required
               fullWidth
+              type='email'
               id='email'
               label='Email Address'
               name='email'
@@ -91,10 +93,6 @@ export default function SignIn() {
               id='password'
               autoComplete='current-password'
             />
-            {/* <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
-            /> */}
             <Button
               type='submit'
               fullWidth
@@ -104,11 +102,6 @@ export default function SignIn() {
               Sign In
             </Button>
             <Grid container>
-              {/* <Grid item xs>
-                <Link href="#" variant="body2">
-                  Forgot password?
-                </Link>
-              </Grid> */}
               <Grid item>
                 <Link to='/dashboard' variant='body2'>
                   {"Don't have an account?  Continue as a Guest"}
