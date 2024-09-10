@@ -1,0 +1,73 @@
+/* * {
+    background-color: white;
+} */
+ .discount-heading h4 {
+    text-align: center;
+    font-size:xx-large;
+    background-color: purple;
+    color: yellow;
+    height: 50px;
+    width: 100%;
+    padding-top: 5px;
+}
+.discount-heading svg {
+    color: red;
+    float: inline-end;
+    margin: 20px;
+}
+.discount-heading h3 {
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-left: 30px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.products {
+    margin: 50px;
+    padding: 40px;
+    
+}
+.row.row-cols-1.row-cols-md-4.g-4 {
+    justify-content: space-between;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.col {
+    display: contents;
+    text-align: center;
+}
+.card{
+    width: 250px;
+	border-radius: 10px;
+    margin: auto;
+
+    
+}
+
+.card-img-top{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+/*.content-heading {
+    font-size: xx-large;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-items {
+    margin-top: 50px;
+    padding: 20px;
+}  */
+/* .MuiCard-root {
+    
+}  */
